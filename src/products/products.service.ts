@@ -5,9 +5,10 @@ import { Product } from "./products.model";
 export class productServices{
     products:Product[]=[];
 
-    insertProduct(title:string,desc:string,price:string){
-        const newProduct=new Product(Math.floor(Math.random()*10).toString(),"lol"+Math.floor(Math.random()*10).toString(),55);
+    insertProduct(title:string,desc:string,price:number){
+        const newProduct=new Product(title,desc,price);
         this.products.push(newProduct);
+        return [...this.products]
     }
 
 
