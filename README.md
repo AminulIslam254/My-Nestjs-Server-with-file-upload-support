@@ -22,6 +22,13 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+## File upload
+Go to the file upload branch
+send the file to the API http://localhost:3005/file-upload/file 
+Key of the file name should be 'myFile'
+on successfull operation it will store the file on 'files' folder
+The code and working directory is in 'file-upload' folder
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
