@@ -24,10 +24,10 @@
 
 ## File upload
 * Go to the file upload branch
-# send the file to the API http://localhost:3005/file-upload/file 
-# Key of the file name should be 'myFile'
-# on successfull operation it will store the file on 'files' folder
-# The code and working directory is in 'file-upload' folder
+* send the file to the API http://localhost:3005/file-upload/file 
+* Key of the file name should be 'myFile'
+* on successfull operation it will store the file on 'files' folder
+* The code and working directory is in 'file-upload' folder
 
 ## Description
 
